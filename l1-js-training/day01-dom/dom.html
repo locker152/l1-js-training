@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom</title>
+    <link rel="stylesheet" href="./dom.css">
+</head>
+<body>
+    <h1 style="text-align: center;">个人卡片</h1>
+    <div class="original">
+        <p id="originalName">姓名：张三</p>
+        <p id="originalAge">年龄：25</p>
+        <p id="originalGender">性别：男</p>
+        <p id="originalPhone">手机号：12345678910</p>
+    </div>
+    <div class="edit">
+        姓名: <input type="text" id="newName" placeholder="请输入新的姓名"> <button onclick="updateName()">更改</button><br><br>
+        年龄: <input type="text" id="newAge" placeholder="请输入新的年龄"> <button onclick="updateAge()">更改</button><br><br>
+        性别: <input type="text" id="newGender" placeholder="请输入新的性别"> <button onclick="updateGender()">更改</button><br><br>
+        手机号: <input type="text" id="newPhone" placeholder="请输入新的手机号"> <button onclick="updatePhone()">更改</button>
+    </div>
+   <script src="./dom.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.task-item {
+    padding: 10px;
+    border-bottom: 1px solid white ;
+    display: flex;
+    justify-content: space-between;
+    background-color: white; 
+}
+
+
+.task-item.done {
+    background-color: gray; 
+    text-decoration: line-through; 
+    color: black;
+}
+
+#stats {
+    background: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}

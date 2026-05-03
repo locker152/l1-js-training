@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数据列表渲染</title>
+    <link rel="stylesheet" href="./day03-数据列表渲染.css">
+</head>
+<body>
+    <div>
+    <h1>书籍列表</h1>
+    <input type="text" id="BookName" placeholder="输入新书籍名称">
+    <input type="text" id="BookAuthor" placeholder="输入作者姓名">
+    <select id="Bookstatus">
+        <option value="已完成">已完成</option>
+        <option value="未完成">未完成</option> 
+        <option value="正在读">正在读</option>
+    </select>
+    <button onclick="AddBook()" style="background-color: white;">添加书籍</button>
+    <ul id="BookList">
+
+    </ul>
+    </div>
+    
+    <script src="./day03-数据列表渲染.js"></script>
+</body>
+</html>
